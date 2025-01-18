@@ -1,0 +1,13 @@
+spring.application.name=Project2Boot
+spring.mustache.prefix=classpath:/templates/
+spring.mustache.suffix=.html
+spring.datasource.driver-class-name=
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+spring.jpa.properties.hibernate.dialect=
+spring.jpa.properties.hibernate.show_sql=true
+
+# чтобы работали put patch delete
+spring.mvc.hiddenmethod.filter.enabled=true
